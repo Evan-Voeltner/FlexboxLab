@@ -77,30 +77,43 @@
 
 /* Number Twelve */
 .container-12 {
-
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
 }
 
 .nerf-12 {
     background-color: blue;
-    
+    align-self: flex-end;
+    order: 1;
 }
 
 /* Number Thirteen */
 .container-13 {
-
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .nerf-13 {
     background-color: blue;
-
+    align-self: center;
+    order: -1;
 }
 
 /* Number Fourteen */
 .container-14 {
-
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .nerf-14 {
     background-color: blue;
-
+    align-self: baseline;
+    order: -1;
 }
